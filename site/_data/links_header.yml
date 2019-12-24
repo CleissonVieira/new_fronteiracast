@@ -1,0 +1,23 @@
+- itunes:
+  name: Apple
+  title: Apple Podcast
+  icon: img/icons/itunes.png
+  url: https://podcasts.apple.com/br/podcast/fronteiracast/id1485615609
+
+- google:
+  name: Google
+  title: Google Podcast
+  icon: img/icons/googlepodcast.png
+  url: https://podcasts.google.com/?feed=aHR0cHM6Ly91ZmZzLmNjL2Zyb250ZWlyYWNhc3QvZmVlZHMvZmVlZF9mcm9udGVpcmFjYXN0LnhtbA
+
+- spotify:
+  name: Spotify
+  title: Spotify Podcast
+  icon: img/icons/spotify.png
+  url: https://open.spotify.com/show/3RKvFyaS3JzSlpvoBouxfA
+
+- deezer:
+  name: Deezer
+  title: Deezer Podcast
+  icon: img/icons/deezer.png
+  url: https://www.deezer.com/br/show/668362

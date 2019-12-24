@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+  <div class="wrapperheaderplayer">
+    <audio class="player_post" id="player" preload="none" controls="controls">
+      <source src="{{ page.podcast_file_permalink }}" type="audio/mpeg" />
+      seu navegador não suporta HTML5
+    </audio>
+  </div>
+
+
+  <!-- CONTEÚDO SOLTO NO MARKDOWN -->
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

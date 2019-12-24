@@ -1,0 +1,45 @@
+title: FronteiraCast
+baseurl: "/fronteiracast"
+
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+homeurl: "http://127.0.0.1:4000/fronteiracast/"
+
+#XML Padrão
+language: pt-BR
+author: PodUFFS
+explicit: 'no' 
+owner: PodUFFS
+email: poduffs@gmail.com
+participants: Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao e Vinicius dos Reis
+
+init: '<![CDATA['
+end: ']]>'
+
+
+description: >- 
+  O PodUFFS é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
+
+instagram_username: fronteira.cast
+github_username:  FronteiraCast
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+
+
+#INFORMAÇÕES xml
+# <!-- // ABAIXO DE itunes:owner
+# <googleplay:author>{{ fc.author }}</googleplay:author>
+# <googleplay:image href="{{ fc.image.url }}"/>
+# <googleplay:email>{{ site.email }}</googleplay:email>
+# <googleplay:description>{{ fc.description }}</googleplay:description>
+# <googleplay:category text="{{ fc.category }}"/>
+# <googleplay:explicit>{{ site.explicit }}</googleplay:explicit>
+
+# // ABAIXO DE item, itunes:explicit
+# <googleplay:author>{{ site.author }}</googleplay:author>
+# <googleplay:description>{{ episode.description }}</googleplay:description>
+# <googleplay:explicit>{{ site.explicit }}</googleplay:explicit> -->
