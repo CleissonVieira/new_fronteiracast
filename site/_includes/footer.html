@@ -1,35 +1,82 @@
+<footer style="background-color: black;" class="site-footer font-small indigo" id="footer">
+  <div class="container text-center text-md-left">
+    <div class="row">
 
-
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-      <div class="wrapper">
-        <div class="footer-col-wrapper">
-
-
-          <div class="linkFooter">
-            {% for social_item in site.data.socialmedia %}
-                <div class="social-icons">
-                  <a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a>
-                </div> 
-              {% endfor %}
-          </div>
-
-
-          <div class="footer-col one-half">
-            <h2 class="footer-heading">{{ site.title | escape }}</h2>
-            <ul class="contact-list">
-                {%- if site.email -%}
-                  <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                {%- endif -%}
-            </ul>
-          </div>
-
-
-          <div class="footer-col one-half">
+      <div class="col-md-3 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">{{ site.title | escape }}</h5>
+          <div class="mb-5">
             <p>{{- site.description | escape -}}</p>
           </div>
-
-
-        </div>
       </div>
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Team</h5>
+        <ul class="list-unstyled">
+          {% for author in site.data.authors %}
+            <li class="mb-3">
+              <a href="#" class="d-flex">
+                <figure class="image mr-4">
+                  <a href="{{ author.page }}" title="{{ author.name }}" target="_blank">
+                    <img class="img-fluid" src="{{ site.homeurl }}{{ author.img }}"> {{ author.name }}</a>
+                </figure>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+     
+      <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Where are we</h5>
+
+        <ul class="list-unstyled">
+          {% for links in site.data.links_header %}
+            <li class="mb-3">
+              <a href="#" class="d-flex">
+                <figure class="image mr-4">
+                  <a href="{{ links.url }}" title="{{ links.title }}" target="_blank">
+                    <img class="img-fluid" src="{{ site.homeurl }}{{ links.icon }}"> {{ links.name }}</a>
+                </figure>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#header">Home</a></li>
+          {% for link in site.data.links %}
+            <li><a href="{{ link.url }}" target="_blank">{{ link.sigla }}</a></li>
+          {% endfor %}
+        </ul><br>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">social networks</h5>
+        <div>
+          {% for social_item in site.data.socialmedia %}
+            <a href="{{ social_item.url }}" class="pl-0 pr-3" title="{{ social_item.title }}" target="_blank"><span class="{{ social_item.class }}"></span></a>
+          {% endfor %}
+        </div>
+        {%- if site.email -%}
+          <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {%- endif -%}
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    © 2018 Copyright: podUFFS
+  </div>
+  <!-- Copyright -->
+
 </footer>
+<!-- Footer -->
+</div>

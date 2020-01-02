@@ -1,3 +1,9 @@
+- spotify:
+  name: Spotify
+  title: Spotify Podcast
+  icon: img/icons/spotify.png
+  url: https://open.spotify.com/show/3RKvFyaS3JzSlpvoBouxfA
+
 - itunes:
   name: Apple
   title: Apple Podcast
@@ -9,12 +15,6 @@
   title: Google Podcast
   icon: img/icons/googlepodcast.png
   url: https://podcasts.google.com/?feed=aHR0cHM6Ly91ZmZzLmNjL2Zyb250ZWlyYWNhc3QvZmVlZHMvZmVlZF9mcm9udGVpcmFjYXN0LnhtbA
-
-- spotify:
-  name: Spotify
-  title: Spotify Podcast
-  icon: img/icons/spotify.png
-  url: https://open.spotify.com/show/3RKvFyaS3JzSlpvoBouxfA
 
 - deezer:
   name: Deezer

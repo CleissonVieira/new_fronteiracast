@@ -1,11 +1,29 @@
 - cleisson_raimundi:
   name: Cleisson V. Raimundi
-  wemail: cleisson.raimundi@gmail.com
+  email: cleisson.raimundi@gmail.com
   github: https://github.com/CleissonVieira
   instagram: "@cleisson.raimundi"
   linkedin: https://www.linkedin.com/in/cleisson-vieira-raimundi-b57ba9142/
   img: img/authors/cleisson.jpeg
-  page: https://CleissonVieira.github.io 
+  page: https://CleissonVieira.github.io
+
+- estela_vilas_boas:
+  name: Estela Vilas Boas
+  email: estelavilasboas01@gmail.com
+  github: https://github.com/estelavilasboas
+  instagram: https://www.instagram.com/akaestelar/
+  linkedin:
+  img: img/authors/estela.jpeg
+  page: https://estelavilasboas.github.io
+
+- fernando_bevilacqua:
+  name: Fernando Bevilacqua
+  email: dovyski@gmail.com
+  github: https://github.com/Dovyski
+  instagram: https://www.instagram.com/dovyski/
+  linkedin: https://www.linkedin.com/in/fernandobevilacqua/
+  img: img/authors/fernando.png
+  page: https://www.fernandobevilacqua.com/
 
 - isabeli_reik:
   name: Isabeli R. Reik
@@ -15,6 +33,15 @@
   linkedin: https://www.linkedin.com/in/isabeli-reik-872981162/
   img: img/authors/isabeli.jpeg
   page: https://isabelirk.github.io
+
+- mauricio_bozatski:
+  name: Mauricio F. Bozatski
+  email: 
+  github:
+  instagram:
+  linkedin:
+  img: img/authors/mauricio.jpeg
+  page: 
 
 - matheus_negrao:
   name: Matheus D. Negrao
