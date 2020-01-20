@@ -1,11 +1,11 @@
-  <header class="header">
+  <header class="header" id="header">
     <nav style="background: black;" class="navbar navbar-dark navbar-expand-lg py-1">
         <a href="#" class="navbar-brand text-uppercase font-weight-bold"></a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="icon-bars"></span></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 {% for page in site.pages %}
-                  <li class="nav-item"><a href="{{ page.url }}" class="nav-link text-uppercase font-weight-bold">{{ page.title }}</a></li>
+                  <li class="nav-item"><a href="{{site.baseurl}}{{page.url}}" class="nav-link text-uppercase font-weight-bold">{{ page.title }}</a></li>
                 {% endfor %}
               </ul>
           </div>

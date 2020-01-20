@@ -1,21 +1,21 @@
 ---
-layout: page
-title: Dna UFFS
-permalink: /dnauffs/
+layout: default
+title: Fronteira Cast
+permalink: /fronteiracast/
 ---
 
 <!-- CABEÇALHO -->
 <div class="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row justify-content-center text-center">
-        <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-          
-          <div style="padding: 50px;">
-            <img style="border: none; background: black; width: 300px; height: 280px;" src="{{ site.homeurl }}img/du_logos/dnauffs.png" class="rounded img-responsive">
-          </div>
 
+        <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">  
+          <div style="padding: 50px;">
+            <img style="border: none; background: black; width: 300px; height: 280px;" src="{{ site.homeurl }}img/fc_logos/moldura_quadrada.png" class="media-object  img-responsive img-thumbnail">
+          </div>
+          
           <button type="button" class="btn btn-link">
-            <a href="#footer" class="btn btn-dark btn-sm py-3 px-3 small" style="background-color: #42AC8C;">
+            <a href="#footer" class="btn btn-dark btn-sm py-3 px-3 small" style="background-color: Darkblue;">
               Informações gerais
             </a>
           </button>
@@ -24,20 +24,14 @@ permalink: /dnauffs/
               Entenda os quadros
             </a>
           </button>
-
-          <div class="player">
-            <audio id="player2" preload="none" controls style="max-width: 100%">
-              <source src="https://cdn.uffs.cc/poduffs/dnauffs/DU0.mp3" type="audio/mp3">
-            </audio>
-          </div> 
-
         </div>
+
       </div>
     </div>
   </div>  
 
 
-
+  <!-- PODCASTS -->
   <div class="site-section bg-light">
     <div class="container">
         <div class="row mb-5" data-aos="fade-up">
@@ -48,16 +42,15 @@ permalink: /dnauffs/
         {% if site.posts.size == 0 %}
           <h2>No post found</h2>
         {% else %}
-            {% for post in site.categories.dnauffs %}
-
+            {% for post in site.categories.fronteiracast %}
                 <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
                     <div class="image">
-                      <img src="{{site.homeurl}}img/du_logos/dnauffs.png" alt="" style="border-radius: 45px; width: 300px; height: 280px;">
+                      <img src="{{site.homeurl}}img/fc_logos/logo_xml.png" alt="" style="width: 300px; height: 300px;">
                     </div>
                     <div class="text">
 
                         <h3 class="font-weight-light">
-                            <b><a style="color: #33a2a2;" href="{{site.baseurl}}{{post.permalink}}">{{ post.title }}</a></b>
+                            <b><a style="color: #0d3d9e;" href="{{site.baseurl}}{{post.permalink}}">{{ post.title }}</a></b>
                         </h3>
                         <div class="text-white mb-3">
                             <span class="text-black-opacity-05">
