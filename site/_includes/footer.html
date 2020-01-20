@@ -54,7 +54,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <div class="col-md-3 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Team</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Equipe</h5>
         <ul class="list-unstyled">
           {% for author in site.data.authors %}
             <li class="mb-3">
@@ -72,7 +72,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <div class="col-md-3 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Where are we</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Onde estamos</h5>
 
         <ul class="list-unstyled">
           {% for links in site.data.links_header %}
@@ -99,7 +99,7 @@
             <li><a href="{{ link.url }}" target="_blank">{{ link.sigla }}</a></li>
           {% endfor %}
         </ul><br>
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">social networks</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Redes sociais</h5>
         <div>
           {% for social_item in site.data.socialmedia %}
             <a href="{{ social_item.url }}" class="pl-0 pr-3" title="{{ social_item.title }}" target="_blank"><span class="{{ social_item.class }}"></span></a>
