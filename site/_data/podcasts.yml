@@ -11,14 +11,16 @@
   category-1: Society &amp; Culturece
   subcategory-1: Documentary
   category-2: Science
-  subcategory-2: Life-Science 
+  subcategory-2: Life-Science
+  image_quadros: img/fc_logos/moldura_quadrada.png
+  title_quadros: '<h3 class="font-weight-light" style="color: #0d3d9e;"><b>Fronteira Cast</b></h3>'
   
 - podcast:
   id: 2
   permalink: /dnauffs
   title: Dna UFFS
   link_xml: https://uffs.cc/fronteiracast/feeds/feed_dnauffs
-  description: 'O DnaUFFS é um quadro voltado aos cursos da Universidade Federal da Fronteira Sul - Campus Chapecó.'
+  description: 'O DnaUFFS é um quadro voltado aos cursos e demais informações da Universidade Federal da Fronteira Sul - Campus Chapecó.'
   image_title: DnaUffs 
   image_url: https://uffs.cc/fronteiracast/img/du_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/dnauffs
@@ -26,37 +28,42 @@
   category-1: Education
   subcategory-1: Courses 
   category-2: Science
-  subcategory-2: Life-Science 
+  subcategory-2: Life-Science
+  image_quadros: img/du_logos/dnauffs.png
+  title_quadros: '<h3 class="font-weight-light" style="color: #42AC8C;"><b>Dna UFFS</b></h3>'
 
-- podcast:
-  id: 3
-  permalink: /noticia
-  title: Ta Rolando
-  link_xml: https://uffs.cc/fronteiracast/feeds/feed_noticias
-  description: 'O Ta Rolando é um quadro que busca trazer notícias gerais de uma forma diferente.'
-  image_title: TaRolando
-  image_url: https://uffs.cc/fronteiracast/img/tr_logos/logo_xml.png
-  podcast_link: https://uffs.cc/fronteiracast/noticia
-  author: Cleisson Vieira Raimundi
-  category-1: News
-  subcategory-1: News Commentary
-  category-2: Science
-  subcategory-2: Life-Science 
+# - podcast:
+#   id: 3
+#   permalink: /noticia
+#   title: Ta Rolando
+#   link_xml: https://uffs.cc/fronteiracast/feeds/feed_noticias
+#   description: 'O Ta Rolando é um quadro que busca trazer notícias gerais de uma forma diferente.'
+#   image_title: TaRolando
+#   image_url: https://uffs.cc/fronteiracast/img/tr_logos/logo_xml.png
+#   podcast_link: https://uffs.cc/fronteiracast/noticia
+#   author: Cleisson Vieira Raimundi
+#   category-1: News
+#   subcategory-1: News Commentary
+#   category-2: Science
+#   subcategory-2: Life-Science
+#   image_quadros: 
+#   title_quadros: '<h3 class="font-weight-light" style="color: #42AC8C;"><b>Noticias</b></h3>'
 
-- podcast:
-  id: 4
-  permalink: /disclaimer
-  title: Disclaimer
-  link_xml: https://uffs.cc/fronteiracast/feeds/feed_disclaimer
-  description: 'O Disclaimer é um quadro livre para o público. Um espaço onde os participantes tem total responsabilidade pelo episódio e não há participação do Fronteira Cast.' 
-  image_title: Disclaimer
-  image_url: https://uffs.cc/fronteiracast/img/dc_logos/logo_xml.png
-  podcast_link: https://uffs.cc/fronteiracast/disclaimer
-  author: 
-  category-1: Society &amp; Culturece
-  subcategory-1: Documentary 
-  category-2: Science
-  subcategory-2: Social Sciences  
-  
+# - podcast:
+#   id: 4
+#   permalink: /disclaimer
+#   title: Disclaimer
+#   link_xml: https://uffs.cc/fronteiracast/feeds/feed_disclaimer
+#   description: 'O Disclaimer é um quadro livre para o público. Um espaço onde os participantes tem total responsabilidade pelo episódio e não há participação do Fronteira Cast.' 
+#   image_title: Disclaimer
+#   image_url: https://uffs.cc/fronteiracast/img/dc_logos/logo_xml.png
+#   podcast_link: https://uffs.cc/fronteiracast/disclaimer
+#   author: 
+#   category-1: Society &amp; Culturece
+#   subcategory-1: Documentary 
+#   category-2: Science
+#   subcategory-2: Social Sciences  
+#   image_quadros:
+#   title_quadros: '<h3 class="font-weight-light" style="color: #42AC8C;"><b>Disclaimer</b></h3>'
   
   

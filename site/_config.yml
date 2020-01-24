@@ -29,6 +29,8 @@ plugins:
 
 markdown: kramdown
 
+# gem: [jekyll-paginate]
+# paginate: 3
 
 #INFORMAÇÕES xml
 # <!-- // ABAIXO DE itunes:owner
