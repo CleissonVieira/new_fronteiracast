@@ -13,14 +13,14 @@
   category-2: Science
   subcategory-2: Life-Science
   image_quadros: img/fc_logos/moldura_quadrada.png
-  title_quadros: '<h3 class="font-weight-light" style="color: #0d3d9e;"><b>Fronteira Cast</b></h3>'
+  title_quadros: '<h3 class="font-weight-light" style="color: #0d3d9e;"><b>FronteiraCast</b></h3>'
   
 - podcast:
   id: 2
   permalink: /dnauffs
-  title: Dna UFFS
+  title: DNA UFFS
   link_xml: https://uffs.cc/fronteiracast/feeds/feed_dnauffs
-  description: 'O DnaUFFS é um quadro voltado aos cursos e demais informações da Universidade Federal da Fronteira Sul - Campus Chapecó.'
+  description: 'O DNA UFFS é um quadro voltado aos cursos e demais informações da Universidade Federal da Fronteira Sul - Campus Chapecó.'
   image_title: DnaUffs 
   image_url: https://uffs.cc/fronteiracast/img/du_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/dnauffs
@@ -30,7 +30,7 @@
   category-2: Science
   subcategory-2: Life-Science
   image_quadros: img/du_logos/dnauffs.png
-  title_quadros: '<h3 class="font-weight-light" style="color: #42AC8C;"><b>Dna UFFS</b></h3>'
+  title_quadros: '<h3 class="font-weight-light" style="color: #42AC8C;"><b>DNA UFFS</b></h3>'
 
 # - podcast:
 #   id: 3
