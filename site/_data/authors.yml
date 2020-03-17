@@ -1,3 +1,12 @@
+- alessandra_pedrotti:
+  name: Alessanda Pedrotti
+  email: alessandrapedrotti24@gmail.com
+  github:
+  instagram: "@azarat_h"
+  linkedin: https://www.linkedin.com/in/alessandra-pedrotti-2a729619b
+  img: img/authors/alessandra.jpeg
+  page: https://www.linkedin.com/in/alessandra-pedrotti-2a729619b
+
 - cleisson_raimundi:
   name: Cleisson V. Raimundi
   email: cleisson.raimundi@gmail.com
@@ -14,7 +23,7 @@
   instagram: https://www.instagram.com/akaestelar/
   linkedin:
   img: img/authors/estela.jpeg
-  page: https://estelavilasboas.github.io
+  page: https://github.com/estelavilasboas
 
 - fernando_bevilacqua:
   name: Fernando Bevilacqua
@@ -32,7 +41,7 @@
   instagram: "@isabeli.rk"
   linkedin: https://www.linkedin.com/in/isabeli-reik-872981162/
   img: img/authors/isabeli.jpeg
-  page: https://isabelirk.github.io
+  page: https://github.com/isabelirk
 
 - mauricio_bozatski:
   name: Mauricio F. Bozatski
@@ -50,7 +59,7 @@
   instagram: "@n.egrao"
   linkedin: https://www.linkedin.com/in/matheus-negr%C3%A3o-a95160166/
   img: img/authors/negrao.jpeg
-  page: https://MaNegrao.github.io
+  page: https://github.com/MaNegrao
 
 - vinicius_reis:
   name: Vinicius J. dos Reis
@@ -59,13 +68,4 @@
   instagram: "@vini2reis08"
   linkedin:
   img: img/authors/vini.jpeg
-  page: https://vini2reis.github.io
-
-- alessandra_pedrotti:
-  name: Alessanda Pedrotti
-  email: alessandrapedrotti24@gmail.com
-  github:
-  instagram: "@azarat_h"
-  linkedin: https://www.linkedin.com/in/alessandra-pedrotti-2a729619b
-  img: img/authors/alessandra.jpeg
-  page:
+  page: https://github.com/vini2reis

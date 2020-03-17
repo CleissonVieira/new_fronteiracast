@@ -13,6 +13,11 @@
   class: icon-facebook
   title: "Facebook FronteiraCast"
 
+- name: Discord
+  url: https://discord.gg/GCJ4qT
+  class: fab fa-discord
+  title: "Discord FronteiraCast"
+
 # - name: YouTube
 #   url: http://www.youtube.com/
 #   class: icon-youtube
