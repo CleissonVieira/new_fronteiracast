@@ -52,7 +52,9 @@ Depois de clonar o repositório em sua máquina, acesse a pasta via terminal e r
 
 '''
 cd repositório
+
 bundle install
+
 bundle exec jekyll serve
 '''
 
